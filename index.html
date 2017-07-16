@@ -208,7 +208,7 @@ Topology.prototype.update=function(){
       .attr("class", "circle")
       .attr("xlink:href", function(d){
          //根据类型来使用图片
-         return d.expand ? <img src="./img/1.jpg" /> : <img src="./img/2.png" />;
+         return d.expand ? "./img/1.jpg" : "./img/2.jpg";
       })
       .attr("x", "-32px")
       .attr("y", "-32px")
