@@ -208,7 +208,7 @@ Topology.prototype.update=function(){
       .attr("class", "circle")
       .attr("xlink:href", function(d){
          //根据类型来使用图片
-         return d.expand ? "http://pic2.orsoon.com/2016/1215/20161215100547239.jpg" : "https://imgsa.baidu.com/forum/w%3D580/sign=741de6692e7f9e2f70351d002f31e962/ee9012afa40f4bfb2e7bcadb0a4f78f0f636182c.jpg";
+         return d.expand ? <img src="./img/1.jpg" /> : <img src="./img/2.png" />;
       })
       .attr("x", "-32px")
       .attr("y", "-32px")
